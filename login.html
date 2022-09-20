@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Login Form</title>
+    </head>
+
+    <body>
+        <h3>LOGIN</h3>
+        <formform="Login_form" onsubmit="submit_form()" ></formform>
+    <h4>USERNAME</h4>
+    <input type="text" placeholder="Enter your email id"/>
+    <h4>PASSWORD</h4>
+    <input type="password" placeholder="Enter your password"/>
+    <input type="submit" value="Login" onclick="submit_form()"/>
+    <input type="button" value="SignUp" onclick="create()"/>
+    </form>
+    <script type="text/javascript">
+        function submit_form(){
+            alert("Login Successful");
+        }
+        function create(){
+            window.location.href="signup.html";
+        }
+    </script>
+    </body>
+</html>
